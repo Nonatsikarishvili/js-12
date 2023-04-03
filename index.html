@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js 12</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container" >
+        <form class="registration" action="" id="registration-form">
+            <div>
+                <label for="username-field">Username</label>
+                <input type="text" name="username" id="username-field">
+                <p class="error-text" id="error-username"></p>
+            </div>
+            <div>
+                <label for="password-field">Password</label>
+                <input type="password" name="password" id="password-field">
+                <i id="show-hide" class="fa-solid fa-eye"></i>
+                <p class="error-text" id="error-password"></p>
+            </div>
+            <div>
+                <label for="password-field2">Password2</label>
+                <input type="password" name="password2" id="password-field2">
+                <p class="error-text" id="error-password2"></p>
+
+            </div>
+            <div>
+                <label for="emailfield">Email</label>
+                <input type="email" name="email" id="email1">
+                <p id="error-email"></p>
+            </div>
+            <div>
+                <input class="agee" type="radio" name="age" id="age1">
+                <label for="age1">18-30</label>
+                <input class="agee" type="radio" name="age" id="age2">
+                <label for="age2">30-50</label>
+                <p class="error-text" id="error-age"></p>
+
+            </div>
+            <div>
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree"> i agree terms</label>
+                <p class="error-text" id="error-agree"></p>
+
+            </div>
+            <button type="submit">submmit</button>
+        </form>
+    </div>  
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

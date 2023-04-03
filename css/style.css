@@ -1,0 +1,23 @@
+.container{
+  max-width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.registration{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  
+}
+div{
+  margin: 10px;
+}
+.error-text{
+    color: red;
+}
+
+
